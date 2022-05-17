@@ -1,0 +1,22 @@
+{
+  "name": "yehui-cli",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "yehui-cli": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "4.0.0",
+    "commander": "^9.2.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "shelljs": "^0.8.5"
+  }
+}
