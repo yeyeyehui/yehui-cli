@@ -9,10 +9,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "bin": {
     "yehui-cli": "bin/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
+    "antd": "^4.21.6",
     "chalk": "4.0.0",
     "commander": "^9.2.0",
     "fs-extra": "^10.1.0",
